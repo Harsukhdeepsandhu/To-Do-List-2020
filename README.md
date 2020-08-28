@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##This a To Do List app built with react js hooks and it presists data using localstorage
 
 ## Available Scripts
 
