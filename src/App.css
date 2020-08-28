@@ -1,38 +1,71 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-width: 320px;
+}
+
+.app-container {
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+}
+
+.app-container form {
+  margin-top: 10px;
+}
+
+.app-container form input {
+  width: 100%;
+  border: 2px solid black;
+  height: 40px;
+  font-size: 25px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.list-container {
+  margin-top: 10px;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.list-container div {
+  width: 100%;
+  border-bottom: 2px solid #aaaaaa;
+  margin-top: 5px;
+  padding-bottom: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.list-container div h5 {
+  font-size: 25px;
+}
+
+.list-container div button {
+  width: 50%;
   color: white;
+  font-size: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.list-container div .completed {
+  background-color: green;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.list-container div .task-finished {
+  color: #8b8b8b;
+  text-decoration: line-through;
+  -webkit-text-decoration-color: black;
+          text-decoration-color: black;
+}
+
+.list-container div .delete {
+  background-color: red;
+}
+
+@media (max-width: 520px) {
+  .app-container {
+    width: 80%;
+    margin-left: 10%;
   }
 }
+/*# sourceMappingURL=App.css.map */
