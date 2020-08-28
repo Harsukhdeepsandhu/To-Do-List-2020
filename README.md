@@ -1,4 +1,4 @@
-##This a To Do List app built with react js hooks and it presists data using localstorage
+## To Do List app built with react js hooks and it presists data using localstorage
 
 ## Available Scripts
 
